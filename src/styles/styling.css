@@ -1,0 +1,51 @@
+.navigation-menu{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-menu li{
+    margin: 0px 20px;
+}
+
+.navigation-menu li a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.mobile-navigation
+{
+    list-style: none;
+}
+.mobile-navigation li{
+    margin-top: 20px;
+}
+.mobile-navigation li a{
+    text-decoration: none;
+    font-size: 1.4 rem;
+    color:black
+}
+
+.active{
+    /* background: #d44a4a; */
+    padding-bottom: 2px;
+     border-bottom : 4px solid rgb(202, 202, 13);
+    text-decoration: solid ; 
+    border-radius : 4px; 
+    /* background-color: antiquewhite; */
+    /* border: 4px solid rgb(202, 202, 13); */
+    padding : 6px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+} 
+/* .devesh{
+    color: red;
+    background: #d44a4a;
+    
+}  */
+/* .btn{
+    font-size: small;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: red;
+} */

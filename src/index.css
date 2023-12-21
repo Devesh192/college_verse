@@ -1,0 +1,30 @@
+/* import '/src/asset/images/z.png'; */
+
+* {
+  margin: 0;
+ padding :0;
+}
+body{
+  font-family: roboto,sans-serif;
+}
+
+.bg-yellow-gradient{
+  background-image: linear-gradient(to right top, #a3a595, #878878, #6c6d5c, #525241, #3a3928, #38361f, #353217, #332f0d, #46400f, #5a5110, #6f630f, #86750d);
+}
+.bg-yellow2-gradient {
+      background-image: linear-gradient(to right top, #a3a595, #878878, #6c6d5c, #525241, #3a3928, #38361f, #353217, #332f0d, #46400f, #5a5110, #6f630f, #86750d);
+}
+
+.bg {
+  background-image: url('/src/asset/images/z.png');
+}
+.bg2 {
+  background-image: url('/src/asset/images/13034.jpg');
+}
+.bg3 {
+  background-image: url('/src/asset/images/d.png');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

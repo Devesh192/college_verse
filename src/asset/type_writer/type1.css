@@ -1,0 +1,41 @@
+.typewriter {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: visible;
+    /* Ensures the text doesn't overflow its container */
+    border-right: 0.08em solid #000;
+    /* Vertical blinking cursor */
+    white-space: pre-wrap;
+    /* Keeps the text on a single line */
+    margin: 0 auto;
+    /* Center the text */
+    letter-spacing: 0.1em;
+    /* Adjust letter spacing for a typewriter look */
+    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-decoration: underline;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #000;
+    }
+}

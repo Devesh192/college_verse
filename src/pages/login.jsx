@@ -16,6 +16,9 @@ import { UserContext } from '../App';
 function Login() {
 
   const { state, dispatch } = useContext(UserContext);
+
+  const data1 = state[0];
+  const data2 = state[1];
   const [userData, setUserData] = useState({
     email: "",
     password: "",
